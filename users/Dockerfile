@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:7.10.1
+FROM public.ecr.aws/docker/library/node:lts-alpine3.19
 
 WORKDIR /srv
 ADD . .
